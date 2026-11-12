@@ -9,9 +9,10 @@ window.TL_CONFIG = {
   // Your contact details (shown in the footer / about page)
   brand: {
     name: "twisted loops",
-    tagline: "handmade crochet, made in India",
-    email: "hello@twistedloops.co.in",
-    instagram: "https://instagram.com/twistedloops",
-    whatsapp: "", // e.g. "https://wa.me/919999999999"
+    tagline: "handmade crochet, made with Love",
+    email: "pbbeenutwistedloops@gmail.com",
+    instagram: "https://www.instagram.com/twisted_l00ps/",
+    facebook:"https://www.facebook.com/share/1FRrHAEjR5/"
+    whatsapp: "https://wa.me/918078043005", // e.g. "https://wa.me/919999999999"
   }
 };
