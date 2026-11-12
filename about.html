@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>About — Twisted Loops</title>
+  <meta name="description" content="The story behind Twisted Loops — a small Indian studio making slow-stitched crochet bags and accessories." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400&family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="nav" aria-label="primary">
+      <button class="nav-toggle" aria-label="menu">☰</button>
+      <div class="nav-left">
+        <a href="index.html">home</a>
+        <a href="shop.html">shop</a>
+        <a href="about.html">about</a>
+      </div>
+      <a href="index.html" class="brand">twisted <em>loops</em></a>
+      <div class="nav-right">
+        <a href="shop.html">shop</a>
+        <button class="nav-cart" aria-label="open bag">bag<span class="count">0</span></button>
+      </div>
+    </nav>
+  </header>
+
+  <section class="about-hero">
+    <div class="eyebrow" style="color: rgba(243,235,220,0.7); margin-bottom: 18px;">our story</div>
+    <h1>made with<br/>twisted love.</h1>
+    <p>“I started Twisted Loops because the world needed softer things.”</p>
+  </section>
+
+  <section class="about-story">
+    <p>Twisted Loops began as a quiet experiment — a ball of cotton yarn, one hook, and a cup of chai that went cold while the first tote took shape. What started as a hobby to slow down everyday life turned into something bigger: a small studio of hands making bags, pouches, and little pieces of softness for a world moving a little too fast.</p>
+
+    <p>Every piece is hand-crocheted in India using naturally dyed cotton and recycled yarns. We make in small batches, often made to order, so nothing we create goes to waste. The imperfect stitches are on purpose — they are the signature of a human hand, not a machine.</p>
+
+    <p>We believe fashion should feel like a hug. We believe quality doesn't have to be loud. And we believe the most beautiful things are the ones you can carry, every day, forever.</p>
+  </section>
+
+  <section class="section on-cream" style="padding-top: 0;">
+    <div class="values">
+      <div class="value">
+        <h3>slow-made</h3>
+        <p>Each piece takes 6–40 hours by hand. We refuse to rush the stitches.</p>
+      </div>
+      <div class="value">
+        <h3>naturally dyed</h3>
+        <p>We work with cotton and recycled yarns in a palette drawn from the earth.</p>
+      </div>
+      <div class="value">
+        <h3>made in india</h3>
+        <p>Designed and crocheted locally, shipping across the country and beyond.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="about-cta">
+    <h2>say hi.</h2>
+    <p>Commissions, collabs, or just want to chat yarn? We'd love to hear from you.</p>
+    <p style="margin-top: 20px;">
+      <a href="mailto:hello@twistedloops.co.in" class="btn">hello@twistedloops.co.in</a>
+    </p>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="brand">twisted <em>loops</em></div>
+    <div class="est">est. mmxxiv</div>
+    <p>Twisted Loops believes in the power of slow fashion and a sustainable style.</p>
+    <div class="footer-links">
+      <a href="index.html">home</a>
+      <a href="shop.html">shop</a>
+      <a href="about.html">about</a>
+      <a href="mailto:hello@twistedloops.co.in">contact</a>
+    </div>
+    <div class="footer-fine">© <span class="js-year"></span> Twisted Loops · twistedloops.co.in</div>
+  </footer>
+
+  <!-- CART DRAWER -->
+  <div class="cart-backdrop" aria-hidden="true"></div>
+  <aside class="cart-drawer" aria-label="shopping bag">
+    <div class="cart-head">
+      <h3>your bag</h3>
+      <button class="cart-close" aria-label="close">×</button>
+    </div>
+    <div class="cart-body"></div>
+    <div class="cart-foot">
+      <div class="cart-total"><span>total</span><span class="amount">₹0</span></div>
+      <button class="btn btn-solid cart-checkout">checkout</button>
+      <p class="note">secure payment via razorpay · shipping across india</p>
+    </div>
+  </aside>
+
+  <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+  <script src="js/config.js"></script>
+  <script src="js/products.js"></script>
+  <script src="js/cart.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

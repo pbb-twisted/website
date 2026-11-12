@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Shop — Twisted Loops</title>
+  <meta name="description" content="Shop handmade crochet bags, pouches and home goods by Twisted Loops. Slow-stitched in India." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400&family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="nav" aria-label="primary">
+      <button class="nav-toggle" aria-label="menu">☰</button>
+      <div class="nav-left">
+        <a href="index.html">home</a>
+        <a href="shop.html">shop</a>
+        <a href="about.html">about</a>
+      </div>
+      <a href="index.html" class="brand">twisted <em>loops</em></a>
+      <div class="nav-right">
+        <a href="shop.html">shop</a>
+        <button class="nav-cart" aria-label="open bag">bag<span class="count">0</span></button>
+      </div>
+    </nav>
+  </header>
+
+  <section class="shop-hero">
+    <div class="eyebrow" style="color: rgba(243,235,220,0.7); margin-bottom: 20px;">the collection</div>
+    <h1>shop</h1>
+    <p>Hand-crocheted bags, pouches, and little luxuries for the home. Each piece is made to order in small batches — allow 5–7 days before dispatch.</p>
+  </section>
+
+  <div class="shop-controls" role="tablist" aria-label="filter by category"></div>
+
+  <section class="product-grid" aria-live="polite"></section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="brand">twisted <em>loops</em></div>
+    <div class="est">est. mmxxiv</div>
+    <p>Twisted Loops believes in the power of slow fashion and a sustainable style.</p>
+    <div class="footer-links">
+      <a href="index.html">home</a>
+      <a href="shop.html">shop</a>
+      <a href="about.html">about</a>
+      <a href="mailto:hello@twistedloops.co.in">contact</a>
+    </div>
+    <div class="footer-fine">© <span class="js-year"></span> Twisted Loops · twistedloops.co.in</div>
+  </footer>
+
+  <!-- CART DRAWER -->
+  <div class="cart-backdrop" aria-hidden="true"></div>
+  <aside class="cart-drawer" aria-label="shopping bag">
+    <div class="cart-head">
+      <h3>your bag</h3>
+      <button class="cart-close" aria-label="close">×</button>
+    </div>
+    <div class="cart-body"></div>
+    <div class="cart-foot">
+      <div class="cart-total"><span>total</span><span class="amount">₹0</span></div>
+      <button class="btn btn-solid cart-checkout">checkout</button>
+      <p class="note">secure payment via razorpay · shipping across india</p>
+    </div>
+  </aside>
+
+  <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+  <script src="js/config.js"></script>
+  <script src="js/products.js"></script>
+  <script src="js/cart.js"></script>
+  <script src="js/shop.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
